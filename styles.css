@@ -7,7 +7,7 @@ let input = getElementById("newTodoInput");
 		document.getElementById('todolist').appendChild(node).innerText= input.value;
 		input.value ="";
 		else{
-			prompt alert("please input something")
+			window.alert("please input something")
 		}
 	}
 	
