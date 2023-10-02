@@ -1,1 +1,14 @@
 /* Your CSS code here */
+document.getElementById("addTodoBtn").addEventListener('click' =.(){
+
+let input = getElementById("newTodoInput");
+	if(input.value!= " "){
+		const node = document.createElement("li");
+		document.getElementById('todolist').appendChild(node).innerText= input.value;
+		input.value ="";
+		else{
+			prompt alert("please input something")
+		}
+	}
+	
+})
